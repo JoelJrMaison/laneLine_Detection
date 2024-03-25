@@ -3,7 +3,6 @@ from PIL import Image
 import torch
 import torchvision.transforms as transforms
 import numpy as np
-import cv2
 
 # Function to load the TorchScript model
 @st.cache(allow_output_mutation=True)
